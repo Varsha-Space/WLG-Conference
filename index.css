@@ -20,6 +20,7 @@
   position: fixed;
   width: 100%;
   box-shadow: 0px 0px 25px orangered;
+  z-index: 25;
 }
 .nav-link, .dropdown-item{
   font-size: medium;
@@ -33,6 +34,14 @@
     text-shadow: 15px 18px 5px black;
   }
   /* Main */
+  .about_conference{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
   /* Footer Page */
   #footer{
     box-shadow: 0px 0px 25px orangered;
