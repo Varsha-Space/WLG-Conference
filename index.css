@@ -16,7 +16,7 @@
     border-right: 1px solid orangered;
 }
 .navbar{
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   position: fixed;
   width: 100%;
   box-shadow: 0px 0px 25px orangered;
@@ -34,7 +34,7 @@
     text-shadow: 15px 18px 5px black;
   }
   /* Main */
-  .about_conference{
+  .banner{
     background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 0.5px );
